@@ -36,7 +36,7 @@ const sadMood = "Rather sad";
 
 export default function Moods() {
   /* STEP 1 */
-  const [mood, setMood] = useState("");
+  const [mood, setMood] = useState("Not sure how I feel");
 
   const makeHappy = () => {
     /* STEP 4 */
